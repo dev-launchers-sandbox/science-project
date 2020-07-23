@@ -1,0 +1,56 @@
+.course {
+  background-color: blanchedalmond;
+  width: 20%;
+  opacity: 2;
+  border-radius: 5px;
+  border: double;
+  padding: 10px;
+  margin: 8%;
+  min-width: 0.5em;
+}
+
+.chemistryCourse {
+  @extend .course;
+  background-color:red;
+}
+.physicsCourse {
+  @extend .course;
+  background-color:rgb(139, 90, 219);
+}
+.biologyCourse {
+  @extend .course;
+  background-color:yellow;
+}
+.computerScienceCourse {
+  @extend .course;
+  background-color:green;
+}
+.mathCourse {
+  @extend .course;
+  background-color:blue;
+}
+.astronomyCourse {
+  @extend .course;
+  background-color:pink;
+}
+.biochemistryCourse {
+  @extend .course;
+  background-color:rgb(51, 2, 49);
+}
+.astrophysicsCourse {
+  @extend .course;
+  background-color:rgb(208, 248, 144);
+}
+.engeneeringCourse {
+  @extend .course;
+  background-color:rgb(184, 211, 230);
+}
+.astrobiologyCourse {
+  @extend .course;
+  background-color:rgb(177, 87, 72);
+}
+.classesButtons{
+  border-style: double;
+  display: flex;
+  flex-direction: row;
+}
